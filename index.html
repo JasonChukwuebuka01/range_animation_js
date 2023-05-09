@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Range Animation</title>
+ <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+ 
+ <h1 id="h1">Control Panel</h1>
+   
+    <section id="container">
+    <div id="box"></div>
+    <div id="box2"></div>
+     </section>
+    
+     <section id="sectionOne">
+        <label for="speedXrange"> BOX 1(X):</label>
+        <input type="range" id="speedXrange" min="0" max="10" value="1">
+     <output for="speedXrange" id="outputX">1</output>.00px/s
+     </section>
+    
+    
+     <section id="sectionTwo">
+        <label for="speedYrange"> BOX 1(Y):</label>
+        <input type="range" id="speedYrange" min="0" max="10" value="1">
+        <output for="speedY" id="outputY">1</output>.00px/s
+         </section>
+        
+         <section id="sectionThree">
+        <label for="speedXrange2"> BOX 2(X):</label>
+        <input type="range" id="speedXrange2" min="0" max="10" value="1">
+     <output for="speedXrange2" id="outputX2">1</output>.00px/s
+     </section>
+    
+         <section id="sectionFour">
+        <label for="speedYrange2"> BOX 2(Y):</label>
+        <input type="range" id="speedYrange2" min="0" max="10" value="1">
+        <output for="speedYrange2" id="outputY2">1</output>.00px/s
+         </section>
+        
+     <section id="sectionFive">
+        <label for="containerW"> Container Width :</label>
+        <input type="range" id="containerW" min="200" max="350" value="200">
+        <output for="containerW" id="containerOut">200</output>px/s
+      </section>
+     
+      <marquee>
+        <button id="button">Day/Night</button> 
+      </marquee>
+ <script src="./app.js"></script>
+</body>
+</html>
